@@ -1,0 +1,15 @@
+.previewer {
+  display: flex;
+  height: calc(100vh - 16px);
+  justify-content: space-around;
+}
+
+.EditorPreview {
+  font: .9rem Helvetica, sans-serif;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  flex-basis: 45%;
+  height: calc(100vh - 16px);
+  overflow-y: scroll;
+  padding: 1em;
+}

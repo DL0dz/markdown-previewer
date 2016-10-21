@@ -1,9 +1,9 @@
 import React from 'react'
 import { Router, Route, browserHistory } from 'react-router'
-import Hello from '../components/Hello/Hello'
+import MarkdownPreviewer from '../components/MarkdownPreviewer/MarkdownPreviewer'
 
 export default (
   <Router history={browserHistory}>
-    <Route path='/' component={Hello} />
+    <Route path='/' component={MarkdownPreviewer} />
   </Router>
 )
